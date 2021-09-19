@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.square {
+    font-family: "Montserra", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 2rem 4rem;
+    cursor: none;
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+video{
+    width: 50%;
+    border-radius: 50%;
+    /* pointer-events: none; */
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    color: #fff;
+    font-weight: lighter;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Ephesis', cursive;
+    font-size: 50px;
+}
+
+h1:hover{
+    cursor: grab;
+    -webkit-transform: rotateZ(-180deg);
+    -ms-transform: rotateZ(-180deg);
+    transform: rotateZ(-180deg);
+}
+
+.menu{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    border: double 5px;
+    border-radius: 50px;
+    padding: 10px;
+    color: #fff;
+}
+
+span{
+    color: rgba(256, 256, 256, 0.3);
+    cursor: pointer;
+}
+
+span:hover{
+    color: #fff;
+}
+
+.gradient{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #000000,#150050,#3F0071,#610094);
+    /* background-size: 300% 300%;
+    animation: changeBGColor 15s ease infinite; */
+}
+
+/* @keyframes changeBGColor{
+
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+} */

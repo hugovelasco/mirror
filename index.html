@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Ephesis&display=swap" rel="stylesheet">
+    <!-- Google fonts -->
+    <title>The mirror</title>
+</head>
+
+<body class="gradient">
+
+    <h1>Olhe através do espelho</h1>
+
+    <video preload="auto" class="square" id="video"
+        src="assets/videos/disney.mp4" type="video/mp4" poster="assets/images/ivan-lapyrin-wXYlJ8nQvhw-unsplash.jpg"></video>
+
+        <div class="menu">
+
+            <span class="material-icons" onclick="play()">play_circle_filled</span>
+            <span class="material-icons" onclick="pause()">pause</span>
+            <span class="material-icons" onclick="diminuir_vel()">fast_rewind</span>
+            <span class="material-icons" onclick="retroceder()">replay_10</span>
+            <span class="material-icons" onclick="avancar()">forward_10</span>
+            <span class="material-icons" onclick="aumentar_vel()">fast_forward</span>
+            <span class="material-icons" onclick="stop()">stop_circle</span>
+            <span class="material-icons" onclick="volume_up()">volume_up</span>
+            <span class="material-icons" onclick="volume_down()">volume_down</span>
+            <span class="material-icons" onclick="mute()">volume_mute</span>
+
+        </div>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
